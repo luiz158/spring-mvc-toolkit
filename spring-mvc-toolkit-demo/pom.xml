@@ -15,11 +15,12 @@
   <properties>
     <!-- Version of third libraries -->
     <version.servlet-api>3.0.1</version.servlet-api>
-    <version.spring-framework>4.0.6.RELEASE</version.spring-framework>
-    <version.junit>4.11</version.junit>
+    <version.spring-framework>4.3.7.RELEASE</version.spring-framework>
+    <version.junit>4.12</version.junit>
 
     <!-- Jetty -->
-    <jetty.maven.version>8.1.13.v20130916</jetty.maven.version>
+    <!--jetty.maven.version>8.1.16.v20140903</jetty.maven.version-->
+    <jetty.maven.version>9.4.3.v20170317</jetty.maven.version>
     <jetty.port>8080</jetty.port>
     <jetty.scanIntervalSeconds>1</jetty.scanIntervalSeconds>
   </properties>
@@ -63,7 +64,8 @@
 
       <plugins>
         <plugin>
-          <groupId>org.mortbay.jetty</groupId>
+          <!--groupId>org.mortbay.jetty</groupId-->
+          <groupId>org.eclipse.jetty</groupId>
           <artifactId>jetty-maven-plugin</artifactId>
           <version>${jetty.maven.version}</version>
           <configuration>

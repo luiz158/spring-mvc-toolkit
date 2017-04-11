@@ -40,7 +40,7 @@
   </developers>
 
   <properties>
-    <version.java>1.6</version.java>
+    <version.java>1.8</version.java>
     
     <!-- Version of maven plugins -->
     <version.plugin.maven-eclipse-plugin>2.9</version.plugin.maven-eclipse-plugin>
